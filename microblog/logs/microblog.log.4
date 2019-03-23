@@ -1,4 +1,4 @@
-2019-03-09 17:01:03,633 ERROR: Exception on /user/dog [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
+2019-03-09 17:01:43,331 ERROR: Exception on /user/cat [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -37,7 +37,7 @@ Traceback (most recent call last):
   File "C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\models.py", line 49, in is_following
     self.followers.c.followed_id == user.id).count() > 0
 AttributeError: 'AppenderBaseQuery' object has no attribute 'c'
-2019-03-09 17:01:21,351 ERROR: Exception on /user/cat [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
+2019-03-09 17:02:30,226 ERROR: Exception on /user/dog [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -76,3 +76,4 @@ Traceback (most recent call last):
   File "C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\models.py", line 49, in is_following
     self.followers.c.followed_id == user.id).count() > 0
 AttributeError: 'AppenderBaseQuery' object has no attribute 'c'
+2019-03-16 12:36:40,133 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]

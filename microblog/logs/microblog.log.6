@@ -1,4 +1,14 @@
-2019-03-16 12:38:02,930 ERROR: Exception on /user/cat [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
+2019-03-09 14:57:51,788 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 15:33:38,915 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 15:33:48,497 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:29:04,094 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:37:02,584 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:38:27,996 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:39:35,190 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:42:19,970 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:44:39,643 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:58:59,361 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
+2019-03-09 16:59:52,516 ERROR: Exception on /user/cat [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
@@ -37,10 +47,7 @@ Traceback (most recent call last):
   File "C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\models.py", line 49, in is_following
     self.followers.c.followed_id == user.id).count() > 0
 AttributeError: 'AppenderBaseQuery' object has no attribute 'c'
-2019-03-16 12:49:29,705 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
-2019-03-16 13:06:38,745 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
-2019-03-16 13:07:04,014 INFO: Microblog startup [in C:\Users\penga_000\Desktop\python_projects\flask_app\microblog\app\__init__.py:45]
-2019-03-16 13:07:25,734 ERROR: Exception on /user/cat [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
+2019-03-09 17:00:23,674 ERROR: Exception on /user/dog [GET] [in c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py:1761]
 Traceback (most recent call last):
   File "c:\users\penga_000\desktop\python_projects\flask_app\microblog\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
     response = self.full_dispatch_request()
